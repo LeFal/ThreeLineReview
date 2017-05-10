@@ -11,9 +11,17 @@ import Alamofire
 
 class ViewController: UIViewController {
 
+    
+    var currentRequest: Request?
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+
+
+    
 
 
 

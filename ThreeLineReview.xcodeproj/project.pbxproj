@@ -16,6 +16,9 @@
 		DA0071A21EBDDE440048AD0A /* ThreeLineReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0071A11EBDDE440048AD0A /* ThreeLineReviewTests.swift */; };
 		DA0071AD1EBDDE440048AD0A /* ThreeLineReviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0071AC1EBDDE440048AD0A /* ThreeLineReviewUITests.swift */; };
 		DA0071BB1EBDDF7D0048AD0A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0071BA1EBDDF7D0048AD0A /* Alamofire.framework */; };
+		DA0072A71EC36B810048AD0A /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0072A61EC36B810048AD0A /* HomeTableViewController.swift */; };
+		DA0072A91EC36BD10048AD0A /* ExploreListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0072A81EC36BD10048AD0A /* ExploreListViewController.swift */; };
+		DA0072AB1EC36BE70048AD0A /* StoreListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0072AA1EC36BE70048AD0A /* StoreListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		DA0071AC1EBDDE440048AD0A /* ThreeLineReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeLineReviewUITests.swift; sourceTree = "<group>"; };
 		DA0071AE1EBDDE440048AD0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA0071BA1EBDDF7D0048AD0A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/ThreeLineReview-fdvlayylpfopzogfzapbvykvzfnk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		DA0072A61EC36B810048AD0A /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		DA0072A81EC36BD10048AD0A /* ExploreListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreListViewController.swift; sourceTree = "<group>"; };
+		DA0072AA1EC36BE70048AD0A /* StoreListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreListViewController.swift; sourceTree = "<group>"; };
 		E659E0E13FC4EE4C1BAD3E06 /* Pods-ThreeLineReview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeLineReview.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeLineReview/Pods-ThreeLineReview.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +123,9 @@
 				DA0071891EBDDE440048AD0A /* AppDelegate.swift */,
 				DA00718B1EBDDE440048AD0A /* ViewController.swift */,
 				DA00718D1EBDDE440048AD0A /* Main.storyboard */,
+				DA0072A61EC36B810048AD0A /* HomeTableViewController.swift */,
+				DA0072AA1EC36BE70048AD0A /* StoreListViewController.swift */,
+				DA0072A81EC36BD10048AD0A /* ExploreListViewController.swift */,
 				DA0071931EBDDE440048AD0A /* Assets.xcassets */,
 				DA0071951EBDDE440048AD0A /* LaunchScreen.storyboard */,
 				DA0071981EBDDE440048AD0A /* Info.plist */,
@@ -340,8 +349,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA0072A91EC36BD10048AD0A /* ExploreListViewController.swift in Sources */,
+				DA0072A71EC36B810048AD0A /* HomeTableViewController.swift in Sources */,
 				DA00718C1EBDDE440048AD0A /* ViewController.swift in Sources */,
 				DA00718A1EBDDE440048AD0A /* AppDelegate.swift in Sources */,
+				DA0072AB1EC36BE70048AD0A /* StoreListViewController.swift in Sources */,
 				DA0071921EBDDE440048AD0A /* ThreeLineReview.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

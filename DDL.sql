@@ -73,7 +73,7 @@ CREATE TABLE `bet_status` (
 `bet_user_id` 	int NOT NULL	, 	## 베팅한 사람
 
 PRIMARY KEY (`id`),
-##FOREIGN KEY (`item_id`)  REFERENCES store_item (`id`),
+FOREIGN KEY (`item_id`)  REFERENCES store_item (`id`),
 FOREIGN KEY (`bet_user_id`) REFERENCES user (`id`)
 ) ;
 
