@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C611BCEF5D9D0BAFFF743406 /* Pods_ThreeLineReview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD621441D62F3EC502D3395A /* Pods_ThreeLineReview.framework */; };
 		DA00718A1EBDDE440048AD0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0071891EBDDE440048AD0A /* AppDelegate.swift */; };
-		DA00718C1EBDDE440048AD0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA00718B1EBDDE440048AD0A /* ViewController.swift */; };
 		DA00718F1EBDDE440048AD0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA00718D1EBDDE440048AD0A /* Main.storyboard */; };
 		DA0071921EBDDE440048AD0A /* ThreeLineReview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA0071901EBDDE440048AD0A /* ThreeLineReview.xcdatamodeld */; };
 		DA0071941EBDDE440048AD0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0071931EBDDE440048AD0A /* Assets.xcassets */; };
@@ -19,6 +19,9 @@
 		DA0072A71EC36B810048AD0A /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0072A61EC36B810048AD0A /* HomeTableViewController.swift */; };
 		DA0072A91EC36BD10048AD0A /* ExploreListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0072A81EC36BD10048AD0A /* ExploreListViewController.swift */; };
 		DA0072AB1EC36BE70048AD0A /* StoreListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0072AA1EC36BE70048AD0A /* StoreListViewController.swift */; };
+		DA0072AE1EC480820048AD0A /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0072AC1EC480820048AD0A /* HomeViewCell.swift */; };
+		DA0072AF1EC480820048AD0A /* HomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA0072AD1EC480820048AD0A /* HomeViewCell.xib */; };
+		DAFE1EEF1EC74814004A6BB6 /* ReviewTargetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE1EEE1EC74814004A6BB6 /* ReviewTargetModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD621441D62F3EC502D3395A /* Pods_ThreeLineReview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThreeLineReview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2FA20565C2B5C325DF4CCB /* Pods-ThreeLineReview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeLineReview.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeLineReview/Pods-ThreeLineReview.release.xcconfig"; sourceTree = "<group>"; };
 		DA0071861EBDDE440048AD0A /* ThreeLineReview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeLineReview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA0071891EBDDE440048AD0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA00718B1EBDDE440048AD0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA00718E1EBDDE440048AD0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA0071911EBDDE440048AD0A /* ThreeLineReview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThreeLineReview.xcdatamodel; sourceTree = "<group>"; };
 		DA0071931EBDDE440048AD0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,9 +58,12 @@
 		DA0071AC1EBDDE440048AD0A /* ThreeLineReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeLineReviewUITests.swift; sourceTree = "<group>"; };
 		DA0071AE1EBDDE440048AD0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA0071BA1EBDDF7D0048AD0A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/ThreeLineReview-fdvlayylpfopzogfzapbvykvzfnk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
-		DA0072A61EC36B810048AD0A /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
-		DA0072A81EC36BD10048AD0A /* ExploreListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreListViewController.swift; sourceTree = "<group>"; };
-		DA0072AA1EC36BE70048AD0A /* StoreListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreListViewController.swift; sourceTree = "<group>"; };
+		DA0072A61EC36B810048AD0A /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeTableViewController.swift; path = ../HomeTableViewController.swift; sourceTree = "<group>"; };
+		DA0072A81EC36BD10048AD0A /* ExploreListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExploreListViewController.swift; path = ../ExploreListViewController.swift; sourceTree = "<group>"; };
+		DA0072AA1EC36BE70048AD0A /* StoreListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoreListViewController.swift; path = ../StoreListViewController.swift; sourceTree = "<group>"; };
+		DA0072AC1EC480820048AD0A /* HomeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewCell.swift; path = ../HomeViewCell.swift; sourceTree = "<group>"; };
+		DA0072AD1EC480820048AD0A /* HomeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewCell.xib; path = ../HomeViewCell.xib; sourceTree = "<group>"; };
+		DAFE1EEE1EC74814004A6BB6 /* ReviewTargetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReviewTargetModel.swift; path = ../../ReviewTargetModel.swift; sourceTree = "<group>"; };
 		E659E0E13FC4EE4C1BAD3E06 /* Pods-ThreeLineReview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeLineReview.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeLineReview/Pods-ThreeLineReview.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA0071BB1EBDDF7D0048AD0A /* Alamofire.framework in Frameworks */,
+				C611BCEF5D9D0BAFFF743406 /* Pods_ThreeLineReview.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				DA0071BA1EBDDF7D0048AD0A /* Alamofire.framework */,
+				AD621441D62F3EC502D3395A /* Pods_ThreeLineReview.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,11 +129,10 @@
 			isa = PBXGroup;
 			children = (
 				DA0071891EBDDE440048AD0A /* AppDelegate.swift */,
-				DA00718B1EBDDE440048AD0A /* ViewController.swift */,
 				DA00718D1EBDDE440048AD0A /* Main.storyboard */,
-				DA0072A61EC36B810048AD0A /* HomeTableViewController.swift */,
-				DA0072AA1EC36BE70048AD0A /* StoreListViewController.swift */,
-				DA0072A81EC36BD10048AD0A /* ExploreListViewController.swift */,
+				DAFE1EEB1EC747D8004A6BB6 /* Model */,
+				DA0072B01EC481060048AD0A /* View */,
+				DA0072B11EC481060048AD0A /* ViewController */,
 				DA0071931EBDDE440048AD0A /* Assets.xcassets */,
 				DA0071951EBDDE440048AD0A /* LaunchScreen.storyboard */,
 				DA0071981EBDDE440048AD0A /* Info.plist */,
@@ -150,6 +157,34 @@
 				DA0071AE1EBDDE440048AD0A /* Info.plist */,
 			);
 			path = ThreeLineReviewUITests;
+			sourceTree = "<group>";
+		};
+		DA0072B01EC481060048AD0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA0072AC1EC480820048AD0A /* HomeViewCell.swift */,
+				DA0072AD1EC480820048AD0A /* HomeViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA0072B11EC481060048AD0A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DA0072A61EC36B810048AD0A /* HomeTableViewController.swift */,
+				DA0072AA1EC36BE70048AD0A /* StoreListViewController.swift */,
+				DA0072A81EC36BD10048AD0A /* ExploreListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DAFE1EEB1EC747D8004A6BB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DAFE1EEE1EC74814004A6BB6 /* ReviewTargetModel.swift */,
+			);
+			name = Model;
+			path = View;
 			sourceTree = "<group>";
 		};
 		FBD56FEB3EE307AF323171C5 /* Pods */ = {
@@ -275,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA0071971EBDDE440048AD0A /* LaunchScreen.storyboard in Resources */,
+				DA0072AF1EC480820048AD0A /* HomeViewCell.xib in Resources */,
 				DA0071941EBDDE440048AD0A /* Assets.xcassets in Resources */,
 				DA00718F1EBDDE440048AD0A /* Main.storyboard in Resources */,
 			);
@@ -349,9 +385,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAFE1EEF1EC74814004A6BB6 /* ReviewTargetModel.swift in Sources */,
 				DA0072A91EC36BD10048AD0A /* ExploreListViewController.swift in Sources */,
 				DA0072A71EC36B810048AD0A /* HomeTableViewController.swift in Sources */,
-				DA00718C1EBDDE440048AD0A /* ViewController.swift in Sources */,
+				DA0072AE1EC480820048AD0A /* HomeViewCell.swift in Sources */,
 				DA00718A1EBDDE440048AD0A /* AppDelegate.swift in Sources */,
 				DA0072AB1EC36BE70048AD0A /* StoreListViewController.swift in Sources */,
 				DA0071921EBDDE440048AD0A /* ThreeLineReview.xcdatamodeld in Sources */,

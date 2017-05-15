@@ -7,45 +7,55 @@
 //
 
 import UIKit
+import Alamofire
 
 class HomeTableViewController: UITableViewController {
 
+    var reviewTargets : [ReviewTarget] = []
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        self.fetchPosts()
+    }
+    
+    fileprivate func fetchPosts() {
+        Alamofire.request("http://localhost:8080/service.php").responseJSON { response in
+            switch response.result {
+                case .success(let value):
+                    print(value)
+                    guard let json = value as? [String: Any] else { return }
+                    let reviewTargetsJSONArray = json["data"] as? [[String: Any]] ?? []
+                    self.reviewTargets = [ReviewTarget](JSONArray: reviewTargetsJSONArray) ?? []
+                    self.tableView.reloadData()
+                case .failure(let error):
+                print(error)
+            }
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
     // MARK: - Table view data source
-
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        return reviewTargets.count
     }
-
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell =  Bundle.main.loadNibNamed("HomeViewCell", owner: nil, options: nil)?.first as! HomeViewCell
+        cell.config(reviewTarget: reviewTargets[indexPath.row])
 
-        // Configure the cell...
 
         return cell
     }
-    */
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 211
+    }
+    
+    
 
     /*
     // Override to support conditional editing of the table view.

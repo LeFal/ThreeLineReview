@@ -49,10 +49,10 @@
             </objects>
             <point key="canvasLocation" x="457" y="-589"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Explore List View Controller-->
         <scene sceneID="pMC-90-xCW">
             <objects>
-                <tableViewController id="OLg-Fp-Q5e" sceneMemberID="viewController">
+                <tableViewController id="OLg-Fp-Q5e" customClass="ExploreListViewController" customModule="ThreeLineReview" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="gUB-nU-CbC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -89,17 +89,26 @@
                     <view key="view" contentMode="scaleToFill" id="MoR-0f-7yj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="리뷰 대상 상세 페이지" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vqd-ps-0lc">
+                                <rect key="frame" x="114" y="323" width="146" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Eo-IQ-kmW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="78" y="2400"/>
+            <point key="canvasLocation" x="77.599999999999994" y="2399.5502248875564"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Home Table View Controller-->
         <scene sceneID="8rD-ih-TyC">
             <objects>
-                <tableViewController id="AnQ-bA-lee" sceneMemberID="viewController">
+                <tableViewController id="AnQ-bA-lee" customClass="HomeTableViewController" customModule="ThreeLineReview" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="XwM-iS-wk8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -136,17 +145,26 @@
                     <view key="view" contentMode="scaleToFill" id="7vu-0g-KlL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="쇼핑 리스트 상세페이지" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGT-eq-3fl">
+                                <rect key="frame" x="109" y="323" width="156" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7uo-TM-MJN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="900" y="2400"/>
+            <point key="canvasLocation" x="900" y="2399.5502248875564"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Store List View Controller-->
         <scene sceneID="fBu-3T-jNN">
             <objects>
-                <tableViewController id="78Z-mz-NoT" sceneMemberID="viewController">
+                <tableViewController id="78Z-mz-NoT" customClass="StoreListViewController" customModule="ThreeLineReview" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="urt-sB-RzA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
