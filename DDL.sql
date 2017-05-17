@@ -38,11 +38,14 @@ CREATE TABLE `review_target` (
 `input_date` 		datetime 	NOT NULL, 		## 작성일
 `status` 		int 	DEFAULT 1, 		## 상태 0=미사용, 1=사용, 2=신고
 `like_count` 		int 	DEFAULT 0,		## 좋아요 수
-`review_count` 		int	DEFAULT NULL, 		## 리뷰 수
+`review_count` 		int	DEFAULT 0, 		## 리뷰 수
 `delete_yn` 		char(1) 	DEFAULT 'N', 		## 삭제 여부
 `delete_user_id` 	bigint 	DEFAULT NULL, 		## 삭제자 아이디
 `delete_date` 		datetime 	DEFAULT NULL, 		## 삭제일
 `popularity` 		bigint 	DEFAULT NULL, 		## 인기도
+`good_value` int 	DEFAULT 0,
+`soso_value` int 	DEFAULT 0,
+`bad_value` int 	DEFAULT 0,
  PRIMARY KEY (`id`),
  FOREIGN KEY (`category_id`) REFERENCES `category`(`id`)
 );

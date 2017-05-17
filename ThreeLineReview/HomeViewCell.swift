@@ -27,17 +27,31 @@ class HomeViewCell: UITableViewCell {
     fileprivate var reviewTarget : ReviewTarget?
     
     func config(reviewTarget : ReviewTarget) {
-        self.backgroundColor = .gray
+        self.backgroundColor = .white
         
         //self.RTImage = reviewTarget.imageID
         self.reviewTarget = reviewTarget
-        self.RTAverage.text = String(describing : reviewTarget.score)
+        self.RTAverage.text = String(describing : reviewTarget.score!)
         self.RTName.text = reviewTarget.name
-        self.RTGoodValue.text = String(describing: reviewTarget.goodValue)
-        self.RTSosoValue.text = String(describing: reviewTarget.sosoValue)
-        self.RTBadValue.text = String(describing: reviewTarget.badValue)
+        self.RTGoodValue.text = String(describing: reviewTarget.goodValue!)
+        self.RTSosoValue.text = String(describing: reviewTarget.sosoValue!)
+        self.RTBadValue.text = String(describing: reviewTarget.badValue!)
         self.RTCategory.text = String(reviewTarget.categoryId)
+        RTColorViewSetting(score: reviewTarget.score!)
         
+    }
+    
+    func RTColorViewSetting(score : Double)  {
+        switch score {
+        case 0..<2:
+            self.RTColorView.backgroundColor = .red
+        case 2..<3.5:
+            self.RTColorView.backgroundColor = .green
+        case 3.5...5 :
+            self.RTColorView.backgroundColor = .blue
+        default:
+            self.RTColorView.backgroundColor = .gray
+        }
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

@@ -24,6 +24,8 @@ struct ReviewTarget: Mappable {
     var imageID : String?
     var status : Int?
     
+    
+    
     init?(map: Map) {
     }
     
@@ -40,9 +42,14 @@ struct ReviewTarget: Mappable {
         self.goodValue <- map["good_value"]
         self.sosoValue <- map["soso_value"]
         self.badValue <- map["bad_value"]
-        self.inputDate <- (map["input_date"], ISO8601DateTransform())
+        
+        let format = DateFormatter()
+        format.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        
+        self.inputDate <- (map["input_date"], DateFormatterTransform(dateFormatter: format))
         self.imageID <- map["img"]
         self.status <- map["status"]
     }
+
     
 }
