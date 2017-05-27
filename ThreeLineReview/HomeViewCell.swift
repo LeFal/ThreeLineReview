@@ -11,7 +11,6 @@ import UIKit
 class HomeViewCell: UITableViewCell {
 
     @IBOutlet var RTImage: UIImageView!
-    @IBOutlet var RTName: UILabel!
     @IBOutlet var RTCategory: UILabel!
     @IBOutlet var RTGoodValue: UILabel!
     @IBOutlet var RTSosoValue: UILabel!
@@ -19,9 +18,17 @@ class HomeViewCell: UITableViewCell {
     @IBOutlet var RTColorView: UIView!
     @IBOutlet var RTAverage: UILabel!
     
+    fileprivate let RTName = UILabel()
+
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
+    }
+    
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
     
     fileprivate var reviewTarget : ReviewTarget?
