@@ -7,86 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C611BCEF5D9D0BAFFF743406 /* Pods_ThreeLineReview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD621441D62F3EC502D3395A /* Pods_ThreeLineReview.framework */; };
-		DA00718A1EBDDE440048AD0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0071891EBDDE440048AD0A /* AppDelegate.swift */; };
-		DA00718F1EBDDE440048AD0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA00718D1EBDDE440048AD0A /* Main.storyboard */; };
-		DA0071921EBDDE440048AD0A /* ThreeLineReview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA0071901EBDDE440048AD0A /* ThreeLineReview.xcdatamodeld */; };
-		DA0071941EBDDE440048AD0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0071931EBDDE440048AD0A /* Assets.xcassets */; };
-		DA0071971EBDDE440048AD0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0071951EBDDE440048AD0A /* LaunchScreen.storyboard */; };
-		DA0071A21EBDDE440048AD0A /* ThreeLineReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0071A11EBDDE440048AD0A /* ThreeLineReviewTests.swift */; };
-		DA0071AD1EBDDE440048AD0A /* ThreeLineReviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0071AC1EBDDE440048AD0A /* ThreeLineReviewUITests.swift */; };
-		DA0071BB1EBDDF7D0048AD0A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0071BA1EBDDF7D0048AD0A /* Alamofire.framework */; };
-		DA0072A71EC36B810048AD0A /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0072A61EC36B810048AD0A /* HomeTableViewController.swift */; };
-		DA0072A91EC36BD10048AD0A /* ExploreListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0072A81EC36BD10048AD0A /* ExploreListViewController.swift */; };
-		DA0072AB1EC36BE70048AD0A /* StoreListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0072AA1EC36BE70048AD0A /* StoreListViewController.swift */; };
-		DA0072AE1EC480820048AD0A /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0072AC1EC480820048AD0A /* HomeViewCell.swift */; };
-		DA0072AF1EC480820048AD0A /* HomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA0072AD1EC480820048AD0A /* HomeViewCell.xib */; };
-		DA3E0C301ECAB2C9007F5611 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3E0C2F1ECAB2C9007F5611 /* UserModel.swift */; };
-		DAFE1EEF1EC74814004A6BB6 /* ReviewTargetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE1EEE1EC74814004A6BB6 /* ReviewTargetModel.swift */; };
+		33455DEC578FCB433DB0BC4A /* Pods_ThreeLineReview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322DE32EE9D0F3BAE3B557BC /* Pods_ThreeLineReview.framework */; };
+		DA9E56451EDB037000738BFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E56441EDB037000738BFE /* AppDelegate.swift */; };
+		DA9E56471EDB037000738BFE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E56461EDB037000738BFE /* HomeViewController.swift */; };
+		DA9E564A1EDB037000738BFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9E56481EDB037000738BFE /* Main.storyboard */; };
+		DA9E564D1EDB037000738BFE /* ThreeLineReview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA9E564B1EDB037000738BFE /* ThreeLineReview.xcdatamodeld */; };
+		DA9E564F1EDB037000738BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9E564E1EDB037000738BFE /* Assets.xcassets */; };
+		DA9E56521EDB037000738BFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9E56501EDB037000738BFE /* LaunchScreen.storyboard */; };
+		DA9E565D1EDB037000738BFE /* ThreeLineReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E565C1EDB037000738BFE /* ThreeLineReviewTests.swift */; };
+		DA9E56681EDB037000738BFE /* ThreeLineReviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E56671EDB037000738BFE /* ThreeLineReviewUITests.swift */; };
+		DA9E567A1EDB06A200738BFE /* ReviewTargetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E56781EDB06A200738BFE /* ReviewTargetCollectionViewCell.swift */; };
+		DA9E567B1EDB06A200738BFE /* ReviewTargetCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA9E56791EDB06A200738BFE /* ReviewTargetCollectionViewCell.xib */; };
+		DA9E56801EDB06C000738BFE /* ReviewTargetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E567E1EDB06C000738BFE /* ReviewTargetModel.swift */; };
+		DA9E56811EDB06C000738BFE /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E567F1EDB06C000738BFE /* UserModel.swift */; };
+		DACE17911EFFC5A500334172 /* MakeReviewTargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACE17901EFFC5A500334172 /* MakeReviewTargetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DA00719E1EBDDE440048AD0A /* PBXContainerItemProxy */ = {
+		DA9E56591EDB037000738BFE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DA00717E1EBDDE440048AD0A /* Project object */;
+			containerPortal = DA9E56391EDB037000738BFE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DA0071851EBDDE440048AD0A;
+			remoteGlobalIDString = DA9E56401EDB037000738BFE;
 			remoteInfo = ThreeLineReview;
 		};
-		DA0071A91EBDDE440048AD0A /* PBXContainerItemProxy */ = {
+		DA9E56641EDB037000738BFE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DA00717E1EBDDE440048AD0A /* Project object */;
+			containerPortal = DA9E56391EDB037000738BFE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DA0071851EBDDE440048AD0A;
+			remoteGlobalIDString = DA9E56401EDB037000738BFE;
 			remoteInfo = ThreeLineReview;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AD621441D62F3EC502D3395A /* Pods_ThreeLineReview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThreeLineReview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB2FA20565C2B5C325DF4CCB /* Pods-ThreeLineReview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeLineReview.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeLineReview/Pods-ThreeLineReview.release.xcconfig"; sourceTree = "<group>"; };
-		DA0071861EBDDE440048AD0A /* ThreeLineReview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeLineReview.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA0071891EBDDE440048AD0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA00718E1EBDDE440048AD0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DA0071911EBDDE440048AD0A /* ThreeLineReview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThreeLineReview.xcdatamodel; sourceTree = "<group>"; };
-		DA0071931EBDDE440048AD0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DA0071961EBDDE440048AD0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DA0071981EBDDE440048AD0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA00719D1EBDDE440048AD0A /* ThreeLineReviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeLineReviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA0071A11EBDDE440048AD0A /* ThreeLineReviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeLineReviewTests.swift; sourceTree = "<group>"; };
-		DA0071A31EBDDE440048AD0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA0071A81EBDDE440048AD0A /* ThreeLineReviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeLineReviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA0071AC1EBDDE440048AD0A /* ThreeLineReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeLineReviewUITests.swift; sourceTree = "<group>"; };
-		DA0071AE1EBDDE440048AD0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA0071BA1EBDDF7D0048AD0A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/ThreeLineReview-fdvlayylpfopzogfzapbvykvzfnk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
-		DA0072A61EC36B810048AD0A /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeTableViewController.swift; path = ../HomeTableViewController.swift; sourceTree = "<group>"; };
-		DA0072A81EC36BD10048AD0A /* ExploreListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExploreListViewController.swift; path = ../ExploreListViewController.swift; sourceTree = "<group>"; };
-		DA0072AA1EC36BE70048AD0A /* StoreListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoreListViewController.swift; path = ../StoreListViewController.swift; sourceTree = "<group>"; };
-		DA0072AC1EC480820048AD0A /* HomeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewCell.swift; path = ../HomeViewCell.swift; sourceTree = "<group>"; };
-		DA0072AD1EC480820048AD0A /* HomeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewCell.xib; path = ../HomeViewCell.xib; sourceTree = "<group>"; };
-		DA3E0C2F1ECAB2C9007F5611 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-		DAFE1EEE1EC74814004A6BB6 /* ReviewTargetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReviewTargetModel.swift; path = ../../ReviewTargetModel.swift; sourceTree = "<group>"; };
-		E659E0E13FC4EE4C1BAD3E06 /* Pods-ThreeLineReview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeLineReview.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeLineReview/Pods-ThreeLineReview.debug.xcconfig"; sourceTree = "<group>"; };
+		322DE32EE9D0F3BAE3B557BC /* Pods_ThreeLineReview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThreeLineReview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9E56411EDB037000738BFE /* ThreeLineReview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeLineReview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9E56441EDB037000738BFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA9E56461EDB037000738BFE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ThreeLineReview/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
+		DA9E56491EDB037000738BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA9E564C1EDB037000738BFE /* ThreeLineReview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThreeLineReview.xcdatamodel; sourceTree = "<group>"; };
+		DA9E564E1EDB037000738BFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA9E56511EDB037000738BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA9E56531EDB037000738BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA9E56581EDB037000738BFE /* ThreeLineReviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeLineReviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9E565C1EDB037000738BFE /* ThreeLineReviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeLineReviewTests.swift; sourceTree = "<group>"; };
+		DA9E565E1EDB037000738BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA9E56631EDB037000738BFE /* ThreeLineReviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeLineReviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9E56671EDB037000738BFE /* ThreeLineReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeLineReviewUITests.swift; sourceTree = "<group>"; };
+		DA9E56691EDB037000738BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA9E56781EDB06A200738BFE /* ReviewTargetCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewTargetCollectionViewCell.swift; sourceTree = "<group>"; };
+		DA9E56791EDB06A200738BFE /* ReviewTargetCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReviewTargetCollectionViewCell.xib; sourceTree = "<group>"; };
+		DA9E567E1EDB06C000738BFE /* ReviewTargetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewTargetModel.swift; sourceTree = "<group>"; };
+		DA9E567F1EDB06C000738BFE /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		DACE17901EFFC5A500334172 /* MakeReviewTargetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeReviewTargetViewController.swift; sourceTree = "<group>"; };
+		E6C01A43A3F2FB29CFFFBC00 /* Pods-ThreeLineReview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeLineReview.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeLineReview/Pods-ThreeLineReview.debug.xcconfig"; sourceTree = "<group>"; };
+		F5370EC1FD71412DEE7A8A39 /* Pods-ThreeLineReview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeLineReview.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeLineReview/Pods-ThreeLineReview.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DA0071831EBDDE440048AD0A /* Frameworks */ = {
+		DA9E563E1EDB037000738BFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA0071BB1EBDDF7D0048AD0A /* Alamofire.framework in Frameworks */,
-				C611BCEF5D9D0BAFFF743406 /* Pods_ThreeLineReview.framework in Frameworks */,
+				33455DEC578FCB433DB0BC4A /* Pods_ThreeLineReview.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA00719A1EBDDE440048AD0A /* Frameworks */ = {
+		DA9E56551EDB037000738BFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA0071A51EBDDE440048AD0A /* Frameworks */ = {
+		DA9E56601EDB037000738BFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -96,122 +91,120 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3DFD665D8B28E1517CB8341B /* Frameworks */ = {
+		41784C569957A8E67695144B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DA0071BA1EBDDF7D0048AD0A /* Alamofire.framework */,
-				AD621441D62F3EC502D3395A /* Pods_ThreeLineReview.framework */,
+				322DE32EE9D0F3BAE3B557BC /* Pods_ThreeLineReview.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA00717D1EBDDE440048AD0A = {
+		D5185F5C6C9EF8FD21693470 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DA0071881EBDDE440048AD0A /* ThreeLineReview */,
-				DA0071A01EBDDE440048AD0A /* ThreeLineReviewTests */,
-				DA0071AB1EBDDE440048AD0A /* ThreeLineReviewUITests */,
-				DA0071871EBDDE440048AD0A /* Products */,
-				FBD56FEB3EE307AF323171C5 /* Pods */,
-				3DFD665D8B28E1517CB8341B /* Frameworks */,
+				E6C01A43A3F2FB29CFFFBC00 /* Pods-ThreeLineReview.debug.xcconfig */,
+				F5370EC1FD71412DEE7A8A39 /* Pods-ThreeLineReview.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA9E56381EDB037000738BFE = {
+			isa = PBXGroup;
+			children = (
+				DA9E56431EDB037000738BFE /* ThreeLineReview */,
+				DA9E565B1EDB037000738BFE /* ThreeLineReviewTests */,
+				DA9E56661EDB037000738BFE /* ThreeLineReviewUITests */,
+				DA9E56421EDB037000738BFE /* Products */,
+				D5185F5C6C9EF8FD21693470 /* Pods */,
+				41784C569957A8E67695144B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		DA0071871EBDDE440048AD0A /* Products */ = {
+		DA9E56421EDB037000738BFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA0071861EBDDE440048AD0A /* ThreeLineReview.app */,
-				DA00719D1EBDDE440048AD0A /* ThreeLineReviewTests.xctest */,
-				DA0071A81EBDDE440048AD0A /* ThreeLineReviewUITests.xctest */,
+				DA9E56411EDB037000738BFE /* ThreeLineReview.app */,
+				DA9E56581EDB037000738BFE /* ThreeLineReviewTests.xctest */,
+				DA9E56631EDB037000738BFE /* ThreeLineReviewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA0071881EBDDE440048AD0A /* ThreeLineReview */ = {
+		DA9E56431EDB037000738BFE /* ThreeLineReview */ = {
 			isa = PBXGroup;
 			children = (
-				DA0071891EBDDE440048AD0A /* AppDelegate.swift */,
-				DA00718D1EBDDE440048AD0A /* Main.storyboard */,
-				DAFE1EEB1EC747D8004A6BB6 /* Model */,
-				DA0072B01EC481060048AD0A /* View */,
-				DA0072B11EC481060048AD0A /* ViewController */,
-				DA0071931EBDDE440048AD0A /* Assets.xcassets */,
-				DA0071951EBDDE440048AD0A /* LaunchScreen.storyboard */,
-				DA0071981EBDDE440048AD0A /* Info.plist */,
-				DA0071901EBDDE440048AD0A /* ThreeLineReview.xcdatamodeld */,
+				DA9E56441EDB037000738BFE /* AppDelegate.swift */,
+				DA9E56481EDB037000738BFE /* Main.storyboard */,
+				DA9E567D1EDB06C000738BFE /* Model */,
+				DA9E56771EDB06A200738BFE /* View */,
+				DA9E567C1EDB06AC00738BFE /* ViewController */,
+				DA9E564E1EDB037000738BFE /* Assets.xcassets */,
+				DA9E56501EDB037000738BFE /* LaunchScreen.storyboard */,
+				DA9E56531EDB037000738BFE /* Info.plist */,
+				DA9E564B1EDB037000738BFE /* ThreeLineReview.xcdatamodeld */,
 			);
 			path = ThreeLineReview;
 			sourceTree = "<group>";
 		};
-		DA0071A01EBDDE440048AD0A /* ThreeLineReviewTests */ = {
+		DA9E565B1EDB037000738BFE /* ThreeLineReviewTests */ = {
 			isa = PBXGroup;
 			children = (
-				DA0071A11EBDDE440048AD0A /* ThreeLineReviewTests.swift */,
-				DA0071A31EBDDE440048AD0A /* Info.plist */,
+				DA9E565C1EDB037000738BFE /* ThreeLineReviewTests.swift */,
+				DA9E565E1EDB037000738BFE /* Info.plist */,
 			);
 			path = ThreeLineReviewTests;
 			sourceTree = "<group>";
 		};
-		DA0071AB1EBDDE440048AD0A /* ThreeLineReviewUITests */ = {
+		DA9E56661EDB037000738BFE /* ThreeLineReviewUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DA0071AC1EBDDE440048AD0A /* ThreeLineReviewUITests.swift */,
-				DA0071AE1EBDDE440048AD0A /* Info.plist */,
+				DA9E56671EDB037000738BFE /* ThreeLineReviewUITests.swift */,
+				DA9E56691EDB037000738BFE /* Info.plist */,
 			);
 			path = ThreeLineReviewUITests;
 			sourceTree = "<group>";
 		};
-		DA0072B01EC481060048AD0A /* View */ = {
+		DA9E56771EDB06A200738BFE /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DA0072AC1EC480820048AD0A /* HomeViewCell.swift */,
-				DA0072AD1EC480820048AD0A /* HomeViewCell.xib */,
+				DA9E56781EDB06A200738BFE /* ReviewTargetCollectionViewCell.swift */,
+				DA9E56791EDB06A200738BFE /* ReviewTargetCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		DA0072B11EC481060048AD0A /* ViewController */ = {
+		DA9E567C1EDB06AC00738BFE /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				DA0072A61EC36B810048AD0A /* HomeTableViewController.swift */,
-				DA0072AA1EC36BE70048AD0A /* StoreListViewController.swift */,
-				DA0072A81EC36BD10048AD0A /* ExploreListViewController.swift */,
+				DA9E56461EDB037000738BFE /* HomeViewController.swift */,
+				DACE17901EFFC5A500334172 /* MakeReviewTargetViewController.swift */,
 			);
-			path = ViewController;
-			sourceTree = "<group>";
+			name = ViewController;
+			path = ThreeLineReview/ViewController;
+			sourceTree = SOURCE_ROOT;
 		};
-		DAFE1EEB1EC747D8004A6BB6 /* Model */ = {
+		DA9E567D1EDB06C000738BFE /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DAFE1EEE1EC74814004A6BB6 /* ReviewTargetModel.swift */,
-				DA3E0C2F1ECAB2C9007F5611 /* UserModel.swift */,
+				DA9E567E1EDB06C000738BFE /* ReviewTargetModel.swift */,
+				DA9E567F1EDB06C000738BFE /* UserModel.swift */,
 			);
-			name = Model;
-			path = View;
-			sourceTree = "<group>";
-		};
-		FBD56FEB3EE307AF323171C5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E659E0E13FC4EE4C1BAD3E06 /* Pods-ThreeLineReview.debug.xcconfig */,
-				BB2FA20565C2B5C325DF4CCB /* Pods-ThreeLineReview.release.xcconfig */,
-			);
-			name = Pods;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA0071851EBDDE440048AD0A /* ThreeLineReview */ = {
+		DA9E56401EDB037000738BFE /* ThreeLineReview */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA0071B11EBDDE440048AD0A /* Build configuration list for PBXNativeTarget "ThreeLineReview" */;
+			buildConfigurationList = DA9E566C1EDB037000738BFE /* Build configuration list for PBXNativeTarget "ThreeLineReview" */;
 			buildPhases = (
-				27E938E7E1068FB6F7395B5C /* [CP] Check Pods Manifest.lock */,
-				DA0071821EBDDE440048AD0A /* Sources */,
-				DA0071831EBDDE440048AD0A /* Frameworks */,
-				DA0071841EBDDE440048AD0A /* Resources */,
-				12CDC5FA198C1F08EA525E26 /* [CP] Embed Pods Frameworks */,
-				C5E6D232C225F3030F56CA72 /* [CP] Copy Pods Resources */,
+				8A59607D4ACDE2A5F642D3B0 /* [CP] Check Pods Manifest.lock */,
+				DA9E563D1EDB037000738BFE /* Sources */,
+				DA9E563E1EDB037000738BFE /* Frameworks */,
+				DA9E563F1EDB037000738BFE /* Resources */,
+				237C8A9338D88A7A12ACB281 /* [CP] Embed Pods Frameworks */,
+				E2B501BB30CD315296CDC448 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,75 +212,75 @@
 			);
 			name = ThreeLineReview;
 			productName = ThreeLineReview;
-			productReference = DA0071861EBDDE440048AD0A /* ThreeLineReview.app */;
+			productReference = DA9E56411EDB037000738BFE /* ThreeLineReview.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DA00719C1EBDDE440048AD0A /* ThreeLineReviewTests */ = {
+		DA9E56571EDB037000738BFE /* ThreeLineReviewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA0071B41EBDDE440048AD0A /* Build configuration list for PBXNativeTarget "ThreeLineReviewTests" */;
+			buildConfigurationList = DA9E566F1EDB037000738BFE /* Build configuration list for PBXNativeTarget "ThreeLineReviewTests" */;
 			buildPhases = (
-				DA0071991EBDDE440048AD0A /* Sources */,
-				DA00719A1EBDDE440048AD0A /* Frameworks */,
-				DA00719B1EBDDE440048AD0A /* Resources */,
+				DA9E56541EDB037000738BFE /* Sources */,
+				DA9E56551EDB037000738BFE /* Frameworks */,
+				DA9E56561EDB037000738BFE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DA00719F1EBDDE440048AD0A /* PBXTargetDependency */,
+				DA9E565A1EDB037000738BFE /* PBXTargetDependency */,
 			);
 			name = ThreeLineReviewTests;
 			productName = ThreeLineReviewTests;
-			productReference = DA00719D1EBDDE440048AD0A /* ThreeLineReviewTests.xctest */;
+			productReference = DA9E56581EDB037000738BFE /* ThreeLineReviewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DA0071A71EBDDE440048AD0A /* ThreeLineReviewUITests */ = {
+		DA9E56621EDB037000738BFE /* ThreeLineReviewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA0071B71EBDDE440048AD0A /* Build configuration list for PBXNativeTarget "ThreeLineReviewUITests" */;
+			buildConfigurationList = DA9E56721EDB037000738BFE /* Build configuration list for PBXNativeTarget "ThreeLineReviewUITests" */;
 			buildPhases = (
-				DA0071A41EBDDE440048AD0A /* Sources */,
-				DA0071A51EBDDE440048AD0A /* Frameworks */,
-				DA0071A61EBDDE440048AD0A /* Resources */,
+				DA9E565F1EDB037000738BFE /* Sources */,
+				DA9E56601EDB037000738BFE /* Frameworks */,
+				DA9E56611EDB037000738BFE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DA0071AA1EBDDE440048AD0A /* PBXTargetDependency */,
+				DA9E56651EDB037000738BFE /* PBXTargetDependency */,
 			);
 			name = ThreeLineReviewUITests;
 			productName = ThreeLineReviewUITests;
-			productReference = DA0071A81EBDDE440048AD0A /* ThreeLineReviewUITests.xctest */;
+			productReference = DA9E56631EDB037000738BFE /* ThreeLineReviewUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DA00717E1EBDDE440048AD0A /* Project object */ = {
+		DA9E56391EDB037000738BFE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = LeFal;
 				TargetAttributes = {
-					DA0071851EBDDE440048AD0A = {
+					DA9E56401EDB037000738BFE = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 34UH748CF3;
 						ProvisioningStyle = Automatic;
 					};
-					DA00719C1EBDDE440048AD0A = {
+					DA9E56571EDB037000738BFE = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 34UH748CF3;
 						ProvisioningStyle = Automatic;
-						TestTargetID = DA0071851EBDDE440048AD0A;
+						TestTargetID = DA9E56401EDB037000738BFE;
 					};
-					DA0071A71EBDDE440048AD0A = {
+					DA9E56621EDB037000738BFE = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 34UH748CF3;
 						ProvisioningStyle = Automatic;
-						TestTargetID = DA0071851EBDDE440048AD0A;
+						TestTargetID = DA9E56401EDB037000738BFE;
 					};
 				};
 			};
-			buildConfigurationList = DA0071811EBDDE440048AD0A /* Build configuration list for PBXProject "ThreeLineReview" */;
+			buildConfigurationList = DA9E563C1EDB037000738BFE /* Build configuration list for PBXProject "ThreeLineReview" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -295,38 +288,38 @@
 				en,
 				Base,
 			);
-			mainGroup = DA00717D1EBDDE440048AD0A;
-			productRefGroup = DA0071871EBDDE440048AD0A /* Products */;
+			mainGroup = DA9E56381EDB037000738BFE;
+			productRefGroup = DA9E56421EDB037000738BFE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA0071851EBDDE440048AD0A /* ThreeLineReview */,
-				DA00719C1EBDDE440048AD0A /* ThreeLineReviewTests */,
-				DA0071A71EBDDE440048AD0A /* ThreeLineReviewUITests */,
+				DA9E56401EDB037000738BFE /* ThreeLineReview */,
+				DA9E56571EDB037000738BFE /* ThreeLineReviewTests */,
+				DA9E56621EDB037000738BFE /* ThreeLineReviewUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DA0071841EBDDE440048AD0A /* Resources */ = {
+		DA9E563F1EDB037000738BFE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA0071971EBDDE440048AD0A /* LaunchScreen.storyboard in Resources */,
-				DA0072AF1EC480820048AD0A /* HomeViewCell.xib in Resources */,
-				DA0071941EBDDE440048AD0A /* Assets.xcassets in Resources */,
-				DA00718F1EBDDE440048AD0A /* Main.storyboard in Resources */,
+				DA9E56521EDB037000738BFE /* LaunchScreen.storyboard in Resources */,
+				DA9E564F1EDB037000738BFE /* Assets.xcassets in Resources */,
+				DA9E564A1EDB037000738BFE /* Main.storyboard in Resources */,
+				DA9E567B1EDB06A200738BFE /* ReviewTargetCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA00719B1EBDDE440048AD0A /* Resources */ = {
+		DA9E56561EDB037000738BFE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA0071A61EBDDE440048AD0A /* Resources */ = {
+		DA9E56611EDB037000738BFE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -336,7 +329,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		12CDC5FA198C1F08EA525E26 /* [CP] Embed Pods Frameworks */ = {
+		237C8A9338D88A7A12ACB281 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -351,7 +344,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThreeLineReview/Pods-ThreeLineReview-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		27E938E7E1068FB6F7395B5C /* [CP] Check Pods Manifest.lock */ = {
+		8A59607D4ACDE2A5F642D3B0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,7 +359,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C5E6D232C225F3030F56CA72 /* [CP] Copy Pods Resources */ = {
+		E2B501BB30CD315296CDC448 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -384,65 +377,64 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DA0071821EBDDE440048AD0A /* Sources */ = {
+		DA9E563D1EDB037000738BFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAFE1EEF1EC74814004A6BB6 /* ReviewTargetModel.swift in Sources */,
-				DA0072A91EC36BD10048AD0A /* ExploreListViewController.swift in Sources */,
-				DA3E0C301ECAB2C9007F5611 /* UserModel.swift in Sources */,
-				DA0072A71EC36B810048AD0A /* HomeTableViewController.swift in Sources */,
-				DA0072AE1EC480820048AD0A /* HomeViewCell.swift in Sources */,
-				DA00718A1EBDDE440048AD0A /* AppDelegate.swift in Sources */,
-				DA0072AB1EC36BE70048AD0A /* StoreListViewController.swift in Sources */,
-				DA0071921EBDDE440048AD0A /* ThreeLineReview.xcdatamodeld in Sources */,
+				DA9E56471EDB037000738BFE /* HomeViewController.swift in Sources */,
+				DA9E56801EDB06C000738BFE /* ReviewTargetModel.swift in Sources */,
+				DACE17911EFFC5A500334172 /* MakeReviewTargetViewController.swift in Sources */,
+				DA9E56451EDB037000738BFE /* AppDelegate.swift in Sources */,
+				DA9E564D1EDB037000738BFE /* ThreeLineReview.xcdatamodeld in Sources */,
+				DA9E56811EDB06C000738BFE /* UserModel.swift in Sources */,
+				DA9E567A1EDB06A200738BFE /* ReviewTargetCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA0071991EBDDE440048AD0A /* Sources */ = {
+		DA9E56541EDB037000738BFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA0071A21EBDDE440048AD0A /* ThreeLineReviewTests.swift in Sources */,
+				DA9E565D1EDB037000738BFE /* ThreeLineReviewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA0071A41EBDDE440048AD0A /* Sources */ = {
+		DA9E565F1EDB037000738BFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA0071AD1EBDDE440048AD0A /* ThreeLineReviewUITests.swift in Sources */,
+				DA9E56681EDB037000738BFE /* ThreeLineReviewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DA00719F1EBDDE440048AD0A /* PBXTargetDependency */ = {
+		DA9E565A1EDB037000738BFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DA0071851EBDDE440048AD0A /* ThreeLineReview */;
-			targetProxy = DA00719E1EBDDE440048AD0A /* PBXContainerItemProxy */;
+			target = DA9E56401EDB037000738BFE /* ThreeLineReview */;
+			targetProxy = DA9E56591EDB037000738BFE /* PBXContainerItemProxy */;
 		};
-		DA0071AA1EBDDE440048AD0A /* PBXTargetDependency */ = {
+		DA9E56651EDB037000738BFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DA0071851EBDDE440048AD0A /* ThreeLineReview */;
-			targetProxy = DA0071A91EBDDE440048AD0A /* PBXContainerItemProxy */;
+			target = DA9E56401EDB037000738BFE /* ThreeLineReview */;
+			targetProxy = DA9E56641EDB037000738BFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DA00718D1EBDDE440048AD0A /* Main.storyboard */ = {
+		DA9E56481EDB037000738BFE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DA00718E1EBDDE440048AD0A /* Base */,
+				DA9E56491EDB037000738BFE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DA0071951EBDDE440048AD0A /* LaunchScreen.storyboard */ = {
+		DA9E56501EDB037000738BFE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DA0071961EBDDE440048AD0A /* Base */,
+				DA9E56511EDB037000738BFE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -450,7 +442,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DA0071AF1EBDDE440048AD0A /* Debug */ = {
+		DA9E566A1EDB037000738BFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -501,7 +493,7 @@
 			};
 			name = Debug;
 		};
-		DA0071B01EBDDE440048AD0A /* Release */ = {
+		DA9E566B1EDB037000738BFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -545,9 +537,9 @@
 			};
 			name = Release;
 		};
-		DA0071B21EBDDE440048AD0A /* Debug */ = {
+		DA9E566D1EDB037000738BFE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E659E0E13FC4EE4C1BAD3E06 /* Pods-ThreeLineReview.debug.xcconfig */;
+			baseConfigurationReference = E6C01A43A3F2FB29CFFFBC00 /* Pods-ThreeLineReview.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -560,9 +552,9 @@
 			};
 			name = Debug;
 		};
-		DA0071B31EBDDE440048AD0A /* Release */ = {
+		DA9E566E1EDB037000738BFE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB2FA20565C2B5C325DF4CCB /* Pods-ThreeLineReview.release.xcconfig */;
+			baseConfigurationReference = F5370EC1FD71412DEE7A8A39 /* Pods-ThreeLineReview.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -575,7 +567,7 @@
 			};
 			name = Release;
 		};
-		DA0071B51EBDDE440048AD0A /* Debug */ = {
+		DA9E56701EDB037000738BFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -590,7 +582,7 @@
 			};
 			name = Debug;
 		};
-		DA0071B61EBDDE440048AD0A /* Release */ = {
+		DA9E56711EDB037000738BFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -605,7 +597,7 @@
 			};
 			name = Release;
 		};
-		DA0071B81EBDDE440048AD0A /* Debug */ = {
+		DA9E56731EDB037000738BFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -619,7 +611,7 @@
 			};
 			name = Debug;
 		};
-		DA0071B91EBDDE440048AD0A /* Release */ = {
+		DA9E56741EDB037000738BFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -636,38 +628,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA0071811EBDDE440048AD0A /* Build configuration list for PBXProject "ThreeLineReview" */ = {
+		DA9E563C1EDB037000738BFE /* Build configuration list for PBXProject "ThreeLineReview" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA0071AF1EBDDE440048AD0A /* Debug */,
-				DA0071B01EBDDE440048AD0A /* Release */,
+				DA9E566A1EDB037000738BFE /* Debug */,
+				DA9E566B1EDB037000738BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA0071B11EBDDE440048AD0A /* Build configuration list for PBXNativeTarget "ThreeLineReview" */ = {
+		DA9E566C1EDB037000738BFE /* Build configuration list for PBXNativeTarget "ThreeLineReview" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA0071B21EBDDE440048AD0A /* Debug */,
-				DA0071B31EBDDE440048AD0A /* Release */,
+				DA9E566D1EDB037000738BFE /* Debug */,
+				DA9E566E1EDB037000738BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA0071B41EBDDE440048AD0A /* Build configuration list for PBXNativeTarget "ThreeLineReviewTests" */ = {
+		DA9E566F1EDB037000738BFE /* Build configuration list for PBXNativeTarget "ThreeLineReviewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA0071B51EBDDE440048AD0A /* Debug */,
-				DA0071B61EBDDE440048AD0A /* Release */,
+				DA9E56701EDB037000738BFE /* Debug */,
+				DA9E56711EDB037000738BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA0071B71EBDDE440048AD0A /* Build configuration list for PBXNativeTarget "ThreeLineReviewUITests" */ = {
+		DA9E56721EDB037000738BFE /* Build configuration list for PBXNativeTarget "ThreeLineReviewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA0071B81EBDDE440048AD0A /* Debug */,
-				DA0071B91EBDDE440048AD0A /* Release */,
+				DA9E56731EDB037000738BFE /* Debug */,
+				DA9E56741EDB037000738BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -675,17 +667,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		DA0071901EBDDE440048AD0A /* ThreeLineReview.xcdatamodeld */ = {
+		DA9E564B1EDB037000738BFE /* ThreeLineReview.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				DA0071911EBDDE440048AD0A /* ThreeLineReview.xcdatamodel */,
+				DA9E564C1EDB037000738BFE /* ThreeLineReview.xcdatamodel */,
 			);
-			currentVersion = DA0071911EBDDE440048AD0A /* ThreeLineReview.xcdatamodel */;
+			currentVersion = DA9E564C1EDB037000738BFE /* ThreeLineReview.xcdatamodel */;
 			path = ThreeLineReview.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = DA00717E1EBDDE440048AD0A /* Project object */;
+	rootObject = DA9E56391EDB037000738BFE /* Project object */;
 }
