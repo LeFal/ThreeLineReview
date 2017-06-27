@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ThreeLineReview/ViewController/JoinViewController.swift"
-            timestampString = "520248229.0786"
+            timestampString = "520250060.34137"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
             landmarkName = "fetchPosts(username:password:name:)"
             landmarkType = "7">
             <Locations>
@@ -26,11 +26,11 @@
                   moduleName = "ThreeLineReview"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/LEOFALCON/Documents/2017_Spring/DB/ThreeLineReview/ThreeLineReview/ViewController/JoinViewController.swift"
-                  timestampString = "520248373.250488"
+                  timestampString = "520250061.527123"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "97"
-                  endingLineNumber = "97"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
                   offsetFromSymbolStart = "2581">
                </Location>
                <Location
@@ -41,14 +41,62 @@
                   moduleName = "ThreeLineReview"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/LEOFALCON/Documents/2017_Spring/DB/ThreeLineReview/ThreeLineReview/ViewController/JoinViewController.swift"
-                  timestampString = "520248373.253555"
+                  timestampString = "520250061.529926"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "97"
-                  endingLineNumber = "97"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
                   offsetFromSymbolStart = "3006">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThreeLineReview/LoginViewController.swift"
+            timestampString = "520250373.285475"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "fetchPosts(username:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThreeLineReview/LoginViewController.swift"
+            timestampString = "520250374.291567"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "login(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThreeLineReview/LoginViewController.swift"
+            timestampString = "520250376.333301"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "login(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

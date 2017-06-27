@@ -28,7 +28,6 @@ class JoinViewController: UIViewController {
         
         if !checkValidate(email: email, password: password, name: name) { return }
          fetchPosts(username: email!, password: password!, name: name!)
-          
         }
 
     
