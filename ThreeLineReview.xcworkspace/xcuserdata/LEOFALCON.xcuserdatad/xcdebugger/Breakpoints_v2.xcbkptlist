@@ -9,61 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ThreeLineReview/ViewController/JoinViewController.swift"
-            timestampString = "520250060.34137"
+            filePath = "ThreeLineReview/ViewController/MakeReviewTargetViewController.swift"
+            timestampString = "520271303.470948"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "92"
             endingLineNumber = "92"
-            landmarkName = "fetchPosts(username:password:name:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ThreeLineReview.JoinViewController.((fetchPosts in _EA2FC2655914BFF15567CD32A6F57EE5) (username : Swift.String, password : Swift.String, name : Swift.String) -&gt; ()).(closure #1)"
-                  moduleName = "ThreeLineReview"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/LEOFALCON/Documents/2017_Spring/DB/ThreeLineReview/ThreeLineReview/ViewController/JoinViewController.swift"
-                  timestampString = "520250061.527123"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "92"
-                  endingLineNumber = "92"
-                  offsetFromSymbolStart = "2581">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ThreeLineReview.JoinViewController.((fetchPosts in _EA2FC2655914BFF15567CD32A6F57EE5) (username : Swift.String, password : Swift.String, name : Swift.String) -&gt; ()).(closure #1)"
-                  moduleName = "ThreeLineReview"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/LEOFALCON/Documents/2017_Spring/DB/ThreeLineReview/ThreeLineReview/ViewController/JoinViewController.swift"
-                  timestampString = "520250061.529926"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "92"
-                  endingLineNumber = "92"
-                  offsetFromSymbolStart = "3006">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ThreeLineReview/LoginViewController.swift"
-            timestampString = "520250373.285475"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "fetchPosts(username:password:)"
+            landmarkName = "pickerView(_:titleForRow:forComponent:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -73,29 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ThreeLineReview/LoginViewController.swift"
-            timestampString = "520250374.291567"
+            filePath = "ThreeLineReview/ViewController/MakeReviewTargetViewController.swift"
+            timestampString = "520271303.470948"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "login(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ThreeLineReview/LoginViewController.swift"
-            timestampString = "520250376.333301"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "login(_:)"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "pickerView(_:titleForRow:forComponent:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
