@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DA0071851EBDDE440048AD0A"
+               BlueprintIdentifier = "DA9E56401EDB037000738BFE"
                BuildableName = "ThreeLineReview.app"
                BlueprintName = "ThreeLineReview"
                ReferencedContainer = "container:ThreeLineReview.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DA00719C1EBDDE440048AD0A"
+               BlueprintIdentifier = "DA9E56571EDB037000738BFE"
                BuildableName = "ThreeLineReviewTests.xctest"
                BlueprintName = "ThreeLineReviewTests"
                ReferencedContainer = "container:ThreeLineReview.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DA0071A71EBDDE440048AD0A"
+               BlueprintIdentifier = "DA9E56621EDB037000738BFE"
                BuildableName = "ThreeLineReviewUITests.xctest"
                BlueprintName = "ThreeLineReviewUITests"
                ReferencedContainer = "container:ThreeLineReview.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DA0071851EBDDE440048AD0A"
+            BlueprintIdentifier = "DA9E56401EDB037000738BFE"
             BuildableName = "ThreeLineReview.app"
             BlueprintName = "ThreeLineReview"
             ReferencedContainer = "container:ThreeLineReview.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DA0071851EBDDE440048AD0A"
+            BlueprintIdentifier = "DA9E56401EDB037000738BFE"
             BuildableName = "ThreeLineReview.app"
             BlueprintName = "ThreeLineReview"
             ReferencedContainer = "container:ThreeLineReview.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DA0071851EBDDE440048AD0A"
+            BlueprintIdentifier = "DA9E56401EDB037000738BFE"
             BuildableName = "ThreeLineReview.app"
             BlueprintName = "ThreeLineReview"
             ReferencedContainer = "container:ThreeLineReview.xcodeproj">

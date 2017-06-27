@@ -1,30 +1,43 @@
 //
-//  HomeViewController.swift
+//  ViewController.swift
 //  ThreeLineReview
 //
-//  Created by LEOFALCON on 2017. 5. 24..
+//  Created by LEOFALCON on 2017. 5. 28..
 //  Copyright © 2017년 LeFal. All rights reserved.
 //
 
 import UIKit
 import Alamofire
 
-class HomeViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
+
+class HomeViewController:  UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    
+    @IBOutlet var collectionView: UICollectionView!
     var reviewTargets : [ReviewTarget] = []
-    let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if userGoal.goal1 == "" {
+            if let gvc = self.storyboard?.instantiateViewController(withIdentifier: "FirstGoalVC") as? FirstGoalSettingViewController {
+                self.present(gvc, animated: false)
+            }
+        }
+        
+        
+        
+        self.view.backgroundColor = .lightGray
         self.collectionView.frame = self.view.bounds
-        self.collectionView.backgroundColor = .white
+        self.collectionView.backgroundColor = .lightGray
         self.collectionView.dataSource = self
         self.collectionView.delegate = self
         self.collectionView.frame = self.view.bounds
         self.view.addSubview(self.collectionView)
-        self.collectionView.register(ReviewTargetCollectionViewCell.self, forCellWithReuseIdentifier: "reviewTarget")
+        self.collectionView.register(UINib(nibName: "ReviewTargetCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "reviewTarget")
+        
         self.fetchPosts()
     }
-
+    
     fileprivate func fetchPosts() {
         Alamofire.request("http://localhost:8080/service.php").responseJSON { response in
             switch response.result {
@@ -56,9 +69,9 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let cellWidth = collectionView.frame.width
         return ReviewTargetCollectionViewCell.size(width: cellWidth, reviewTarget: self.reviewTargets[indexPath.item])
-
+        
     }
     
-
+    
     
 }

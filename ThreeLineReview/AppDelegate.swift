@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  ThreeLineReview
 //
-//  Created by LEOFALCON on 2017. 5. 6..
+//  Created by LEOFALCON on 2017. 5. 28..
 //  Copyright © 2017년 LeFal. All rights reserved.
 //
 
@@ -16,15 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        let window = UIWindow(frame: UIScreen.main.bounds)
-        window.backgroundColor = .white
-        window.makeKeyAndVisible()
-        
-        let homeViewController = HomeViewController()
-        let navigationController = UINavigationController(rootViewController: homeViewController)
-        window.rootViewController = navigationController
-        
-        self.window = window
+        // Override point for customization after application launch.
         return true
     }
 
