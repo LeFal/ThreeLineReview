@@ -2,4 +2,54 @@
 <Bucket
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThreeLineReview/ViewController/JoinViewController.swift"
+            timestampString = "520248229.0786"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "fetchPosts(username:password:name:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThreeLineReview.JoinViewController.((fetchPosts in _EA2FC2655914BFF15567CD32A6F57EE5) (username : Swift.String, password : Swift.String, name : Swift.String) -&gt; ()).(closure #1)"
+                  moduleName = "ThreeLineReview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/LEOFALCON/Documents/2017_Spring/DB/ThreeLineReview/ThreeLineReview/ViewController/JoinViewController.swift"
+                  timestampString = "520248373.250488"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "2581">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThreeLineReview.JoinViewController.((fetchPosts in _EA2FC2655914BFF15567CD32A6F57EE5) (username : Swift.String, password : Swift.String, name : Swift.String) -&gt; ()).(closure #1)"
+                  moduleName = "ThreeLineReview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/LEOFALCON/Documents/2017_Spring/DB/ThreeLineReview/ThreeLineReview/ViewController/JoinViewController.swift"
+                  timestampString = "520248373.253555"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "3006">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
