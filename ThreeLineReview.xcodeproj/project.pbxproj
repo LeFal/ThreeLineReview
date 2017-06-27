@@ -21,6 +21,7 @@
 		DA9E56801EDB06C000738BFE /* ReviewTargetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E567E1EDB06C000738BFE /* ReviewTargetModel.swift */; };
 		DA9E56811EDB06C000738BFE /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E567F1EDB06C000738BFE /* UserModel.swift */; };
 		DACE17911EFFC5A500334172 /* MakeReviewTargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACE17901EFFC5A500334172 /* MakeReviewTargetViewController.swift */; };
+		DACE17931F02105F00334172 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACE17921F02105F00334172 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		DA9E567E1EDB06C000738BFE /* ReviewTargetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewTargetModel.swift; sourceTree = "<group>"; };
 		DA9E567F1EDB06C000738BFE /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		DACE17901EFFC5A500334172 /* MakeReviewTargetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeReviewTargetViewController.swift; sourceTree = "<group>"; };
+		DACE17921F02105F00334172 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
 		E6C01A43A3F2FB29CFFFBC00 /* Pods-ThreeLineReview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeLineReview.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeLineReview/Pods-ThreeLineReview.debug.xcconfig"; sourceTree = "<group>"; };
 		F5370EC1FD71412DEE7A8A39 /* Pods-ThreeLineReview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeLineReview.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeLineReview/Pods-ThreeLineReview.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -176,6 +178,7 @@
 		DA9E567C1EDB06AC00738BFE /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DACE17921F02105F00334172 /* LoginViewController.swift */,
 				DA9E56461EDB037000738BFE /* HomeViewController.swift */,
 				DACE17901EFFC5A500334172 /* MakeReviewTargetViewController.swift */,
 			);
@@ -385,6 +388,7 @@
 				DA9E56801EDB06C000738BFE /* ReviewTargetModel.swift in Sources */,
 				DACE17911EFFC5A500334172 /* MakeReviewTargetViewController.swift in Sources */,
 				DA9E56451EDB037000738BFE /* AppDelegate.swift in Sources */,
+				DACE17931F02105F00334172 /* LoginViewController.swift in Sources */,
 				DA9E564D1EDB037000738BFE /* ThreeLineReview.xcdatamodeld in Sources */,
 				DA9E56811EDB06C000738BFE /* UserModel.swift in Sources */,
 				DA9E567A1EDB06A200738BFE /* ReviewTargetCollectionViewCell.swift in Sources */,

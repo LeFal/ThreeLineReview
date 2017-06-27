@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 
-
+let id = UserDefaults.standard
 
 class HomeViewController:  UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
@@ -18,8 +18,8 @@ class HomeViewController:  UIViewController, UICollectionViewDataSource, UIColle
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if userGoal.goal1 == "" {
-            if let gvc = self.storyboard?.instantiateViewController(withIdentifier: "FirstGoalVC") as? FirstGoalSettingViewController {
+        if UserDefaults.standard.string(forKey: "id") == "" {
+            if let gvc = self.storyboard?.instantiateViewController(withIdentifier: "LoginVC") as? LoginViewController {
                 self.present(gvc, animated: false)
             }
         }
