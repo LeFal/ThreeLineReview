@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		33455DEC578FCB433DB0BC4A /* Pods_ThreeLineReview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322DE32EE9D0F3BAE3B557BC /* Pods_ThreeLineReview.framework */; };
 		DA8DDD6A1F036CC9001E999B /* DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8DDD691F036CC8001E999B /* DetailPageViewController.swift */; };
+		DA8DDD6C1F0381E6001E999B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8DDD6B1F0381E6001E999B /* SearchViewController.swift */; };
+		DA8DDD6E1F03950F001E999B /* ReviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8DDD6D1F03950F001E999B /* ReviewModel.swift */; };
+		DA8DDD701F03A4AE001E999B /* writeReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8DDD6F1F03A4AE001E999B /* writeReviewViewController.swift */; };
+		DA8DDD721F03DC27001E999B /* UpdateReviewTargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8DDD711F03DC27001E999B /* UpdateReviewTargetViewController.swift */; };
 		DA9E56451EDB037000738BFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E56441EDB037000738BFE /* AppDelegate.swift */; };
 		DA9E56471EDB037000738BFE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E56461EDB037000738BFE /* HomeViewController.swift */; };
 		DA9E564A1EDB037000738BFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9E56481EDB037000738BFE /* Main.storyboard */; };
@@ -47,6 +51,10 @@
 /* Begin PBXFileReference section */
 		322DE32EE9D0F3BAE3B557BC /* Pods_ThreeLineReview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThreeLineReview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8DDD691F036CC8001E999B /* DetailPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPageViewController.swift; sourceTree = "<group>"; };
+		DA8DDD6B1F0381E6001E999B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = ../SearchViewController.swift; sourceTree = "<group>"; };
+		DA8DDD6D1F03950F001E999B /* ReviewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewModel.swift; sourceTree = "<group>"; };
+		DA8DDD6F1F03A4AE001E999B /* writeReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = writeReviewViewController.swift; sourceTree = "<group>"; };
+		DA8DDD711F03DC27001E999B /* UpdateReviewTargetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateReviewTargetViewController.swift; sourceTree = "<group>"; };
 		DA9E56411EDB037000738BFE /* ThreeLineReview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeLineReview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9E56441EDB037000738BFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA9E56461EDB037000738BFE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ThreeLineReview/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -187,7 +195,10 @@
 				DACE17941F0218DA00334172 /* JoinViewController.swift */,
 				DACE17921F02105F00334172 /* LoginViewController.swift */,
 				DA9E56461EDB037000738BFE /* HomeViewController.swift */,
+				DA8DDD6B1F0381E6001E999B /* SearchViewController.swift */,
 				DA8DDD691F036CC8001E999B /* DetailPageViewController.swift */,
+				DA8DDD711F03DC27001E999B /* UpdateReviewTargetViewController.swift */,
+				DA8DDD6F1F03A4AE001E999B /* writeReviewViewController.swift */,
 				DACE17961F02579D00334172 /* UserViewController.swift */,
 				DACE17901EFFC5A500334172 /* MakeReviewTargetViewController.swift */,
 			);
@@ -199,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				DA9E567E1EDB06C000738BFE /* ReviewTargetModel.swift */,
+				DA8DDD6D1F03950F001E999B /* ReviewModel.swift */,
 				DA9E567F1EDB06C000738BFE /* UserModel.swift */,
 			);
 			path = Model;
@@ -396,10 +408,14 @@
 				DA9E56471EDB037000738BFE /* HomeViewController.swift in Sources */,
 				DACE17971F02579D00334172 /* UserViewController.swift in Sources */,
 				DA9E56801EDB06C000738BFE /* ReviewTargetModel.swift in Sources */,
+				DA8DDD6E1F03950F001E999B /* ReviewModel.swift in Sources */,
 				DACE17911EFFC5A500334172 /* MakeReviewTargetViewController.swift in Sources */,
 				DA8DDD6A1F036CC9001E999B /* DetailPageViewController.swift in Sources */,
+				DA8DDD701F03A4AE001E999B /* writeReviewViewController.swift in Sources */,
 				DA9E56451EDB037000738BFE /* AppDelegate.swift in Sources */,
+				DA8DDD6C1F0381E6001E999B /* SearchViewController.swift in Sources */,
 				DACE17951F0218DA00334172 /* JoinViewController.swift in Sources */,
+				DA8DDD721F03DC27001E999B /* UpdateReviewTargetViewController.swift in Sources */,
 				DACE17931F02105F00334172 /* LoginViewController.swift in Sources */,
 				DA9E564D1EDB037000738BFE /* ThreeLineReview.xcdatamodeld in Sources */,
 				DA9E56811EDB06C000738BFE /* UserModel.swift in Sources */,

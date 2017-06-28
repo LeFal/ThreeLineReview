@@ -36,18 +36,18 @@ class ReviewTargetCollectionViewCell: UICollectionViewCell {
         self.badValue.text = String(describing: reviewTarget.badValue!)
         
         self.colorView.backgroundColor = .white
-        self.averageValue.backgroundColor = getColor(average: reviewTarget.score!)
+        self.averageValue.backgroundColor = getColor(average: reviewTarget.score!.roundTo(places: 2))
         
         self.setNeedsLayout()
     }
     
     func getColor(average : Double) -> UIColor {
         switch average {
-        case 0.0...3.0:
+        case 0.00...3.00:
             return .red
-        case 4.0...7.0:
+        case 3.01...7.00:
             return .green
-        case 8.0...10.0:
+        case 7.01...10.00:
             return .blue
         default:
             return .gray
@@ -65,3 +65,12 @@ class ReviewTargetCollectionViewCell: UICollectionViewCell {
         return CGSize(width: width, height: height)
     }
 }
+
+extension Double {
+    /// Rounds the double to decimal places value
+    func roundTo(places:Int) -> Double {
+        let divisor = pow(10.0, Double(places))
+        return (self * divisor).rounded() / divisor
+    }
+}
+    

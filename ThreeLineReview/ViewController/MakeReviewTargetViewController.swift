@@ -94,13 +94,8 @@ class MakeReviewTargetViewController: UIViewController, UIPickerViewDelegate,UIP
         ]
         Alamofire
             .request("http://localhost:8080/uploadTarget.php", method : .post, parameters : parameters).responseString { response in
-                print(response.value!)
                 switch response.value! {
                 case " success" :
-//                    let alertController = UIAlertController(title: "업로드 성공", message: "정상적으로 업로드에 성공하였습니다.", preferredStyle: .alert)
-//                    let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-//                    alertController.addAction(defaultAction)
-//                    self.present(alertController, animated: true, completion: nil)
                     self.dismiss(animated: true, completion: nil)
                 default : print("error")
                 }

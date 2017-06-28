@@ -10,11 +10,11 @@ import UIKit
 import Alamofire
 
 let id = UserDefaults.standard
+var reviewTargets : [ReviewTarget] = []
 
 class HomeViewController:  UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     @IBOutlet var collectionView: UICollectionView!
-    var reviewTargets : [ReviewTarget] = []
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -47,7 +47,7 @@ class HomeViewController:  UIViewController, UICollectionViewDataSource, UIColle
             case .success(let value):
                 guard let json = value as? [String: Any] else { return }
                 let reviewTargetsJSONArray = json["data"] as? [[String: Any]] ?? []
-                self.reviewTargets = [ReviewTarget](JSONArray: reviewTargetsJSONArray) ?? []
+                reviewTargets = [ReviewTarget](JSONArray: reviewTargetsJSONArray) ?? []
                 self.collectionView.reloadData()
             case .failure(let error):
                 print(error)
@@ -58,12 +58,12 @@ class HomeViewController:  UIViewController, UICollectionViewDataSource, UIColle
     // MARK: UICollectionViewDataSource
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return self.reviewTargets.count
+        return reviewTargets.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "reviewTarget", for: indexPath) as! ReviewTargetCollectionViewCell
-        cell.config(reviewTarget: self.reviewTargets[indexPath.item])
+        cell.config(reviewTarget: reviewTargets[indexPath.item])
         return cell
     }
     
@@ -73,7 +73,7 @@ class HomeViewController:  UIViewController, UICollectionViewDataSource, UIColle
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let cellWidth = collectionView.frame.width
-        return ReviewTargetCollectionViewCell.size(width: cellWidth, reviewTarget: self.reviewTargets[indexPath.item])
+        return ReviewTargetCollectionViewCell.size(width: cellWidth, reviewTarget: reviewTargets[indexPath.item])
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
