@@ -21,7 +21,7 @@ class ReviewTargetCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        self.imageView.backgroundColor = .blue
+        self.imageView.backgroundColor = .white
     }
     
     
@@ -29,25 +29,25 @@ class ReviewTargetCollectionViewCell: UICollectionViewCell {
         self.backgroundColor = .white
         
         self.name.text = reviewTarget.name
-        self.category.text = String(reviewTarget.categoryId)
+        self.category.text = String(describing: reviewTarget.categoryId!)
         self.averageValue.text = String(describing: reviewTarget.score!)
         self.goodValue.text = String(describing: reviewTarget.goodValue!)
         self.sosoValue.text = String(describing: reviewTarget.sosoValue!)
         self.badValue.text = String(describing: reviewTarget.badValue!)
         
         self.colorView.backgroundColor = .white
-        self.averageValue.backgroundColor = .red
+        self.averageValue.backgroundColor = getColor(average: reviewTarget.score!)
         
         self.setNeedsLayout()
     }
     
-    func getColor(average : Int) -> UIColor {
+    func getColor(average : Double) -> UIColor {
         switch average {
-        case 0...3:
+        case 0.0...3.0:
             return .red
-        case 4...7:
+        case 4.0...7.0:
             return .green
-        case 8...10:
+        case 8.0...10.0:
             return .blue
         default:
             return .gray

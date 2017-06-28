@@ -10,12 +10,60 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ThreeLineReview/ViewController/MakeReviewTargetViewController.swift"
-            timestampString = "520271303.470948"
+            timestampString = "520316650.491539"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
-            landmarkName = "pickerView(_:titleForRow:forComponent:)"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "PostCategory(targetName:category:defaultInfo:review:score:userID:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThreeLineReview.MakeReviewTargetViewController.(PostCategory in _162C8C54158B19A7F6548D9C685B1370) (targetName : Swift.String, category : Swift.String, defaultInfo : Swift.String, review : Swift.String, score : Swift.Int, userID : Swift.String) -&gt; ()"
+                  moduleName = "ThreeLineReview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/LEOFALCON/Documents/2017_Spring/DB/ThreeLineReview/ThreeLineReview/ViewController/MakeReviewTargetViewController.swift"
+                  timestampString = "520320476.366049"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "1081">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThreeLineReview.MakeReviewTargetViewController.((PostCategory in _162C8C54158B19A7F6548D9C685B1370) (targetName : Swift.String, category : Swift.String, defaultInfo : Swift.String, review : Swift.String, score : Swift.Int, userID : Swift.String) -&gt; ()).(closure #1)"
+                  moduleName = "ThreeLineReview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/LEOFALCON/Documents/2017_Spring/DB/ThreeLineReview/ThreeLineReview/ViewController/MakeReviewTargetViewController.swift"
+                  timestampString = "520320476.368879"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "189">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThreeLineReview/ViewController/MakeReviewTargetViewController.swift"
+            timestampString = "520316650.491539"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "PostCategory(targetName:category:defaultInfo:review:score:userID:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,12 +74,60 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ThreeLineReview/ViewController/MakeReviewTargetViewController.swift"
-            timestampString = "520271303.470948"
+            timestampString = "520316650.491539"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
-            landmarkName = "pickerView(_:titleForRow:forComponent:)"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "PostCategory(targetName:category:defaultInfo:review:score:userID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThreeLineReview/HomeViewController.swift"
+            timestampString = "520320119.728289"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThreeLineReview/ViewController/MakeReviewTargetViewController.swift"
+            timestampString = "520316650.491539"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "PostCategory(targetName:category:defaultInfo:review:score:userID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThreeLineReview/HomeViewController.swift"
+            timestampString = "520320306.172952"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

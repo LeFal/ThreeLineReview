@@ -10,7 +10,7 @@ import ObjectMapper
 struct ReviewTarget: Mappable {
     
     var id: Int!
-    var categoryId: Int!
+    var categoryId: String?
     var name : String?
     var score : Double?
     var basicInfo : String?

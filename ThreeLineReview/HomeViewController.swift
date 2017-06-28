@@ -24,8 +24,6 @@ class HomeViewController:  UIViewController, UICollectionViewDataSource, UIColle
             }
         }
         
-        
-        
         self.view.backgroundColor = .lightGray
         self.collectionView.frame = self.view.bounds
         self.collectionView.backgroundColor = .lightGray
@@ -36,6 +34,11 @@ class HomeViewController:  UIViewController, UICollectionViewDataSource, UIColle
         self.collectionView.register(UINib(nibName: "ReviewTargetCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "reviewTarget")
         
         self.fetchPosts()
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.fetchPosts()
+        self.collectionView.reloadData()
     }
     
     fileprivate func fetchPosts() {
@@ -64,12 +67,23 @@ class HomeViewController:  UIViewController, UICollectionViewDataSource, UIColle
         return cell
     }
     
+    
+    
     // MARK: UICollectionViewDelegateFlowLayout
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let cellWidth = collectionView.frame.width
         return ReviewTargetCollectionViewCell.size(width: cellWidth, reviewTarget: self.reviewTargets[indexPath.item])
-        
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if let uvc = self.storyboard?.instantiateViewController(withIdentifier: "detailVC") as?
+            DetailPageViewController {
+            uvc.reviewTarget.removeAll()
+            uvc.reviewTarget.append(reviewTargets[indexPath.item])
+            self.navigationController?.pushViewController(uvc, animated: true)
+        }
+
     }
     
     
