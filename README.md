@@ -1,7 +1,7 @@
 # ThreeLineReview
 
 - 2014190004 오형준
-- 교육학과
+    - 교육학과
 
 - 사용환경 : mySQL, PHP, swift(iOS)
 
@@ -15,8 +15,8 @@
 
 - 시연 영상 
 
-- PHP 파일 - DB를 조작하기 위한 코드 포함
+- PHP 파일 : DB를 조작하기 위한 코드 포함
 
-- ThreeLineReview.xcworkspace 클라이언트 작업환경 
+- ThreeLineReview.xcworkspace : 클라이언트 작업환경 
 
-- Pod 관련 파일 - iOS 라이브러리
+- Pod 관련 파일 : iOS 라이브러리
